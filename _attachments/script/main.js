@@ -99,14 +99,10 @@ function geppetoView($scope,cornercouch) {
 
 function geppetoSource($scope,$routeParams,cornercouch) {
     var server = cornercouch('http://localhost:5984','GET');
-    $scope.db = server.getDB('geppeto');
-    var source = $scope.db.newDoc();
+    var db = server.getDB('geppeto');
+    var source = db.newDoc();
     source.load($routeParams.sourceId);
     $scope.source = source;
-//    $scope.checkstatus = [
-//	{name:'Αλήθεια'},
-//	{name:'Ψέμα'}
-//    ];
     $scope.check = {
 	type:'check',
 	status:'',
@@ -119,11 +115,15 @@ function geppetoSource($scope,$routeParams,cornercouch) {
 	var qparams = {
 	    key:$routeParams.sourceId,
 	};
-	$scope.db.query('geppeto','checks',qparams);
+	$scope.checks = db.query('geppeto','checks',qparams);
+	var qparams = {
+	    key:$routeParams.sourceId,
+	};
+	$scope.validchecks = db.query('geppeto','validchecks',qparams);
     }
 
     $scope.addCheck = function() {
-	var doc = $scope.db.newDoc($scope.check);
+	var doc = db.newDoc($scope.check);
 	doc.save();
 	getChecks();
     }

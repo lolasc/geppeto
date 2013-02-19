@@ -1,13 +1,28 @@
 <div class="container">
   <a href="#/view">Back</a>
-  <div>
+  <div class="hero-unit">
     <h3>{{source.pname}}:</h3>
     <blockquote>
-      <p>"{{source.text}}"</p>
+      <p class="lead">"{{source.text}}"</p>
+      <small>βρίσκεται <a href="{{source.link}}">σε αυτή την πηγή</a>
     </blockquote>
-    <h4>βρίσκεται <a href="{{source.link}}">σε αυτή την πηγή</a>
-      και είναι:</h4>
+    <h4>
+      και είναι: {{source.status}}.</h4> 
+    <legend>Επειδή...</legend>
     <!-- <img class="img-rounded" width="100" height="64" ng-src="geppeto/_design/geppeto/style/{{source.status}}.jpg"> -->
+    <ul class="media-list" >
+      <li class="media" ng-repeat="c in validchecks.data.rows">
+	<a class="pull-left" href="#">
+	  <!-- <img class="img-circle" width="128" height="128" ng-src="geppeto/_design/geppeto/style/{{c.value.status}}.jpg"> -->
+	</a>
+	<div class="media-body">
+	  <blockquote class="media-heading">
+	    <p class="text-{{c.value.status}}">{{c.value.text}}</p>
+	    <small>όπως φαίνεται στην <a href="{{c.value.link}}">πηγή</a></small>
+	  </blockquote>
+	</div>
+      </li>
+    </ul>
   </div>
   <div class="accordion" id="accordion1">
     <div class="accordion-group">
@@ -55,17 +70,17 @@
       </div>
     </div>
   </div>
-  <legend>Γνώμες</legend>
+  <legend>Alles Γνώμες</legend>
   <ul class="media-list" >
-    <li class="media" ng-repeat="c in db.rows">
+    <li class="media" ng-repeat="c in checks.data.rows">
       <a class="pull-left" href="#">
 	<!-- <img class="img-circle" width="128" height="128" ng-src="geppeto/_design/geppeto/style/{{c.value.status}}.jpg"> -->
       </a>
       <div class="media-body">
 	<blockquote class="media-heading">
 	  <p class="text-{{c.value.status}}">{{c.value.text}}</p>
+	  <small>όπως φαίνεται στην <a href="{{c.value.link}}">πηγή</a></small>
 	</blockquote>
-	<p>όπως φαίνεται στην <a href="{{c.value.link}}">πηγή</a></p>
       </div>
     </li>
   </ul>

@@ -59,15 +59,15 @@
 	 <a class="pull-left" href="#">
 	   <!-- <img class="img-circle" width="128" height="128" ng-src="geppeto/_design/geppeto/style/{{s.value.status}}.jpg"> -->
 	</a>
-	<div class="media-body">
+	<div class="media-body well">
 	  <h4 class="media-heading">
 	    {{s.value.pname}}
 	  </h4>
 	  <blockquote class="media-heading">
 	    <p class="text-{{s.value.status}}">{{s.value.text}}</p>
+	    <small><a ng-href="{{s.value.link}}">πηγή</a></small>
 	  </blockquote>
 	  <p>
-	    <a ng-href="{{s.value.link}}">πηγή</a>
 	    <a ng-href="#/source/{{s.value.id}}">ανάλυση</a>
 	  </p>
 	</div>

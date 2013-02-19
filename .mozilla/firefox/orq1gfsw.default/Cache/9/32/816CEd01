@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/defaut.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="meta" -->
+<title>XML Editor</title>
+<meta name="keywords" content="XML Editor,XSLT Editor,XSL Editor,XML Tool,XSL-FO,XML,XSLT,XML IDE,DTD,DTD Editor,XSLT Debugger,Schema Editor,Mac OS X" />
+<meta name="description" content="EditiX is a quality XML Editor and XSLT Editor for Windows, Mac OS X and Linux" />
+<!-- InstanceEndEditable -->
+<meta name="google-site-verification" content="x4iq1cabozqaFwUNLdowzruK4ej3F-EBm0Oj0uw4h08" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name="copyright" content="Copyright (c) 2002-2010 JAPISoft" />
+<meta name="author" content="JAPISoft" />
+<meta name="distribution" content="Global" />
+
+<meta http-equiv="Cache-Control" content="no-cache"> 
+<meta http-equiv="Pragma" content="no-cache"> 
+<meta http-equiv="Expires" content="0"> 
+
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){	
+		$("#slider").easySlider({speed: 800,
+auto: true,
+pause: 4000,
+continuous: true});
+	});	
+</script>
+<!-- InstanceParam name="colonne gauche" type="boolean" value="true" -->
+<!-- InstanceParam name="colonne droite" type="boolean" value="true" -->
+</head>
+
+<body>
+	<div id="contener">
+   	  <div id="titre-header">
+        	<a href="http://www.editix.com" class="float_left"><img src="images/structure/logo.jpg" width="94" height="44" alt="XML Editor" title="Editix home" /></a>
+        	<h1 class="float_left"><!-- InstanceBeginEditable name="type" -->XML Editor<!-- InstanceEndEditable --></h1>
+        	<p class="float_right"><a href="features/schema_editor.html" style="color:white;text-decoration:none">Schema Editor</a> - <a href="features/xslt_editor.html" style="color:white;text-decoration:none">XSLT Editor</a> - <a href="features/xslt_debugger.html" style="color:white;text-decoration:none">XSLT Debugger</a> - <a href="features/xslfo_editor.html" style="color:white;text-decoration:none">XSL-FO Editor</a> - <a href="features/xquery_editor.html" style="color:white;text-decoration:none">XQuery Editor</a></p><div class="clean"></div>
+        </div>
+        <div id="header-img"><table cellpadding="0" cellspacing="0" border="0" ><tr><td>EditiX is a powerful and easy to use <span class="gras"><a href="features/xml_editor.html" style="color:white;text-decoration:none">XML editor</a>, <a href="features/schema_editor.html" style="color:white;text-decoration:none">Visual Schema Editor</a>, <a href="features/xquery_editor.html" style="color:white;text-decoration:none">XQuery Editor</a> and <a href="features/xslt_debugger.html" style="color:white;text-decoration:none">XSLT debugger</a></span> for Windows, Linux and Mac OS X designed to help web authors and application programmers take advantage of the latest XML and XML-related technologies such as <span class="gras">XSLT / FO, DocBook and XSD Schema</span>.</td></tr></table></div>
+        <ul id="menu">
+        	<li class="float_left margin-right5"><a href="/index.html" id="home_btn" >Home</a></li>
+            <li class="float_left margin-right5"><a href="/download.html" id="download_btn" >Download</a></li>
+            <li class="float_left margin-right5"><a href="/contact.html" id="support_btn" >Contact</a></li>
+            <li class="float_left margin-right5"><a href="/partners.html" id="partners_btn" >Partners</a></li>            
+            <li class="float_left margin-right5"><a href="/customers.html" id="customers_btn" >Customers</a></li>
+            <li class="float_left margin-right5"><a href="http://www.editix.com/blog" id="xml_btn" >Blog</a></li>
+            <li class="float_left margin-right5"><a href="/products.html" id="products_btn" >Products</a></li>
+            <li class="float_left margin-right5"><a href="/resellers.html" id="training_btn" >Resellers</a></li>            
+            <li class="float_left"><a href="/buy.html" id="buy_btn" >Buy</a></li>
+        </ul>
+
+        <div id="colonne_gauche" class="float_left">
+          <div class="blockgd">
+            <h2>news</h2>
+            <div class="contenu_blockgd">
+              <ul>
+                <li><a href="release.html">EditiX <span class="gras">2013</span></a></li>
+                <li><a href="release.html">XSLT Editor</a></li>
+                <li><a href="release.html">Schema Editor</a></li>
+              </ul>
+              <a href="release.html" class="float_right" style="height:18px;"><img src="images/structure/plus.jpg" width="23" height="18" alt="En savoir plus" title="En savoir plus" /></a>
+              <div class="clean"></div>
+            </div>
+          </div>
+          <div class="blockgd">
+            <h2>Screenshots</h2>
+            <div class="contenu_blockgd">
+              <ul>
+                <li><a href="images/screenshot/maxi.jpg">Main</a></li>
+                <li><a href="images/screenshot/maxi2.png">XSLT Editor</a></li>
+                <li><a href="images/screenshot/maxi22.png">Schema Editor</a></li>
+                <li><a href="images/screenshot/maxi3.png">XSLT Debugger</a></li>
+                <li><a href="images/screenshot/maxi18.jpg">Real time error</a></li>
+                <li><a href="images/screenshot/maxi5.jpg">Content helper</a></li>
+                <li><a href="images/screenshot/maxi15.jpg">XML Diff</a></li>
+                <li><a href="images/screenshot/maxi8.jpg">DocBook</a></li>
+                <li><a href="images/screenshot/maxi13.jpg">Preferences</a></li>
+              </ul>
+              <a href="gallery.html" class="float_right" style="height:18px;"><img src="images/structure/plus.jpg" width="23" height="18" alt="En savoir plus" title="En savoir plus" /></a>
+              <div class="clean"></div>
+            </div>
+          </div>
+          <div class="blockgd">
+            <h2>videos</h2>
+            <div class="contenu_blockgd">
+              <ul>
+               	<li><a href="video/2013/editixxmleditor.html">EditiX 2013</a></li>
+                <li><a href="video/xml_editor/xml_editor.html">XML Editor</a></li>
+                <li><a href="video/xslt_editor/xslt_editor.html">XSLT Editor</a></li>
+                <li><a href="video/schema_editor/schema_editor.html">Schema Editor</a></li>
+                <li><a href="video/xslt_debugger/xslt_debugger.html">XSLT Debugger</a></li>
+                <li><a href="video/xsl_fo_editor/xsl_fo_editor.html">XSL-FO Editor</a></li>
+                <li><a href="video/xml_xpath/xml_xpath.html">XPath Editor</a></li>
+              </ul>
+              <a href="video/videos.html" class="float_right" style="height:18px;"><img src="images/structure/plus.jpg" width="23" height="18" alt="En savoir plus" title="En savoir plus" /></a>
+              <div class="clean"></div>
+            </div>
+          </div>
+          <div class="blockgdsp">
+            <h2>features</h2>
+            <div class="contenu_blockgd">
+              <ul>
+                <li><a href="features/xml_editor.html">XML Editor</a></li>
+                <li><a href="features/xslt_editor.html">XSLT Editor</a></li>
+                <li><a href="features/xslt_debugger.html">XSLT Debugger</a></li>
+                <li><a href="features/xslfo_editor.html">XSL-FO Editor</a></li>
+                <li><a href="features/xquery_editor.html">XQuery Editor</a></li>
+                <li><a href="features/xml_form.html">Form Editor</a></li>
+                <li><a href="features/dtd_editor.html">DTD Editor</a></li>
+                <li><a href="features/schema_editor.html">Schema Editor</a></li>
+                <li><a href="features/svg_editor.html">SVG Editor</a></li>
+                <li><a href="features/xml_databases.html">XML databases</a></li>
+                <li><a href="features/open_xml_editor.html">Open XML Editor</a></li>
+                <li><a href="features/open_document_editor.html">OpenDoc editor </a></li>
+                <li><a href="features/xhtml_editor.html">XHTML Editor</a></li>
+                <li><a href="features/docbook_editor.html">DocBook Editor</a></li>
+                <li><a href="features.html#XML_Diff">XML Diff</a></li>
+                <li><a href="features/css_editor.html">CSS Editor</a></li>
+              </ul>
+              <a href="features.html" class="float_right" style="height:18px;"><img src="images/structure/plus.jpg" width="23" height="18" alt="En savoir plus" title="En savoir plus" /></a>
+              <div class="clean"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="colonne_milieu" class="float_left">
+        
+        <div align="right">
+        
+        
+<table>
+	<tr>
+    	<td width="100" align="left">
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>        
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>     
+        </td>
+        <td align="left">
+  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>        
+        </td>
+        <td width="80" align="left">
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="medium"></g:plusone>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+        </td>
+        <td width="100" align="left">
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/Share" data-counter="right"></script>        
+        </td>
+    </tr>
+</table>
+    
+</div>
+        
+		<!-- InstanceBeginEditable name="centre" --> 
+        <div id="slider">
+            	<ul class="le_slider">				
+                    <li class="les_li"><a href="#"><img src="images/slider/features.jpg" width="284" height="254" alt="Features" title="Features" class="float_left slider_img" /></a>
+                    <div class="float_right slider_texte">
+                    <div class="gras margin-bottom5">Features :</div>
+                    <ul class="liste_texte">
+                        <li>- XSLT 1.0,2.0 Editor</li>
+                        <li>- XSLT Debugger</li>
+                        <li>- Visual Schema Editor</li>
+                        <li>- XQuery Editor</li>
+                        <li>- UniCode</li>
+                        <li>- XPath 1.0, 2.0</li>
+                       	<li>- XSL-FO</li>
+                        <li>- DocBook</li>
+                        <li>- OASIS Catalog</li>
+                        <li>- Refactoring</li>
+                        <li>- Project management</li>
+                        <li>- XML databases</li>
+                     </ul>
+					</div></li>
+                   
+                    <li class="les_li"><a href="#"><img src="images/slider/xml_editor.jpg" width="284" height="254" alt="XML Editor" title="XML Editor" class="float_left slider_img" /></a>
+                    <div class="float_right slider_texte">
+                    <div class="gras margin-bottom5">General XML Editor :</div>
+                    <ul class="liste_texte">
+                        <li>- Synchronized tree</li>
+                        <li>- Multiple tree views (namespace...)</li>
+                        <li>- Dynamic Grid Editor</li>
+                        <li>- Write data mode</li>
+                        <li>- XPath for any documents</li>
+                        <li>- Comment/Uncomment easily</li>
+                       	<li>- Drag'n drop for nodes</li>
+                        <li>- Select the current node</li>
+                        <li>- Duplicate sibling nodes</li>
+                        <li>- Multiple files search</li>
+                        <li>- Bookmark</li>
+                     </ul>
+					</div></li>
+                      <li class="les_li"><a href="gallery.html"><img src="images/slider/xslt-editor.jpg" width="284" height="254" alt="XML Editor" title="XML Editor" class="float_left slider_img" /></a>
+                    <div class="float_right slider_texte">
+                    <div class="gras margin-bottom5">XSLT Editor :</div>
+                    <ul class="liste_texte">
+                        <li>- Validate your document</li>
+                        <li>- Content assistant</li>
+                        <li>- Drag' and drop mode for building XSLT</li>
+                        <li>- Debug into or step by step</li>
+                        <li>- Profiler for optimizing</li>
+                        <li>- Template manager</li>
+                        <li>- XSL-FO output transformation</li>
+                       	<li>- Inner result or browser result</li>
+                        <li>- Edit the result document</li>
+                     </ul>
+					</div></li>
+                     <li class="les_li"><a href="gallery.html"><img src="images/slider/shema.jpg" width="284" height="254" alt="XML Editor" title="XML Editor" class="float_left slider_img" /></a>
+                    <div class="float_right slider_texte">
+                    <div class="gras margin-bottom5">Visual Schema Editor :</div>
+                    <ul class="liste_texte">
+                        <li>- Validate your document</li>
+                        <li>- Content assistant</li>
+                        <li>- Visual or table mode</li>
+                        <li>- Simple type or complex type management</li>
+                        <li>- Generate HTML documentation</li>
+                        <li>- Namespace management</li>
+                     </ul>
+					</div></li>
+                     <li class="les_li"><a href="#"><img src="images/slider/xml_form.jpg" width="284" height="254" alt="XML Form Editor" title="XML Form Editor" class="float_left slider_img" /></a>
+                    <div class="float_right slider_texte">
+                    <div class="gras margin-bottom5">XML Form Editor :</div>
+                    <ul class="liste_texte">
+                        <li>- XML Form Designer Form Schema</li>
+                        <li>- XPath synchronization system</li>
+                        <li>- Various editing fields and properties</li>
+                        <li>- Switch to the Source/Visual Editor</li>
+                        <li>- XML Form Editor</li>
+                        <li>- Multiple fields management</li>
+                       	<li>- Required values are colored</li>
+                     </ul>
+					</div></li>
+                </ul>
+            </div>
+        <div id="contener_slider"> </div>
+            <div class="block_vert_milieu">
+            		<div class="vert_top"></div>
+                		<div class="contenu_vert">
+                          <h1 style="font-size:16px">XML Editor</h1>
+                                                
+                        It provides users with an extensive range of XML functionality within a refined IDE that guides you with intelligent entry helpers. 
+This <a href="features/xml_editor.html">XML Editor</a> has realtime <span class="gras">XPath location</span> and syntax error detection. <span class="gras">Helpers</span> are also provided with context syntax popup <span class="gras">supporting</span> <a href="features/dtd_editor.html">DTD</a>, <a href="features/schema_editor.html">Schema</a> <span class="gras">and RelatxNG</span>. 
+EditiX supports <span class="gras">multiple templates</span> and project management. User can apply <a href="features/xslt_editor.html">XSLT</a>, <a href="features/xquery_editor.html">XQuery</a> <span class="gras">or</span> <a href="features/xslfo_editor.html">FO</a> <span class="gras">Transformation</span> and show the result with a dedicated view. 
+All the process can be managed by <span class="gras">shortcuts</span>. Working locally is managed with <span class="gras">OASIS XML Catalogs</span>. EditiX includes default templates with <a href="features/xml_editor.html">XML</a>, <a href="features/dtd_editor.html">DTD</a>, <a href="features/xhtml_editor.html">XHTML</a>, <a href="features/xslt_editor.html">XSLT</a>, <a href="features/schema_editor.html">XSD</a>, <span class="gras">XML RelaxNG</span>, <a href="features/svg_editor.html">SVG</a>, <span class="gras">MathML</span> and <span class="gras">XML</span> <a href="features/xslfo_editor.html">FO</a>.<a href="features.html">...</a>
+	    </div>
+               		<div class="vert_bottom"></div>
+            </div>
+            <!-- div class="block_vert_milieu">
+            		<div class="vert_top"></div>
+                		<div class="contenu_vert"><span class="txt11">EditiX XML Editor now comes in two editions. EditiX Free XMLEditor Lite is free for non-commercial environments and can be downloaded without registration <a href="http://free.editix.com/download.html">here</a></span></div>
+               		<div class="vert_bottom"></div>
+            </div -->
+            
+            <div class="separateur_pointillets"></div>
+            
+            <div id="features">
+            	<h3>XML Editor Features</h3>
+                <ul class="float_left">
+                	<li><a href="features/xslt_editor.html">XSLT Editor</a> and <a href="features/xslt_debugger.html">Debugger</a> (1.0 and 2.0)</li>
+                    <li>XPath 1.0 and 2.0	</li>
+                    <li><a href="features/xquery_editor.html">XQuery Editor</a></li>
+                    <li><a href="features/xml_databases.html">XML Databases (eXist, Xindice,XML Berkley db)</a></li>
+					<li>Powerful Grid editor</li>
+                    <li>Syntax error and document xpath location <a href="#">on-the-fly</a></li>
+                    <li>Validation of XML documents against</li>
+                    <li>Validation for W3C Schema</li>
+                    <li><a href="features/xml_editor.html">Context sensitive content assistant</a> based on XML Schema, DTD, XML RelaxNG</li>
+                    <li><a href="features/xslt_editor.html">XSLT / XSL-FO / DocBook</a> transformation</li>
+                    <li>Powerful <a href="features.html">XPath builder/research</a></li>
+                    <li>Multiple criterias research (attribute,element,namespace...)</li>
+                    <li><a href="features.html">Project management</a></li>
+                    <li><a href="features.html">Template support</a></li>
+                    <li>Fully customizable (user preference, application descriptor)</li>
+                    <li>OASIS XML Catalog</li>
+                    <li><a href="features/open_xml_editor.html">Open XML format editor</a> (docx...) editor</li>
+                    <li>Refactoring (elements, attributes,schema type, template name, variables and parameters)</li>
+                    <li>XML Snippets</li>
+                </ul>
+                <ul class="float_right">
+                	<li><a href="features/schema_editor.html">Visual Schema Editor</a></li>
+                    <li>Schema Generator (DTD, W3C XML Schema, XML Relax NG) from XML documents </li>
+                    <li><a href="features/css_editor.html">CSS Editor</a></li>
+                    <li>Relational Databases (any JDBC drivers)</li>
+                    <li>Multiple search file (With XPath,Regexp,Text expressions)</li>
+                    <li>FTP, ZIP, JAR support</li>
+                    <li>Unicode (UTF8-UTF16)</li>
+                    <li>XML Instances Generated by W3C Schema or DTD</li>
+                    <li><a href="features.html">XML Differencing</a></li>
+                    <li>Convert DTD,XML Schema,XML RelaxNG</li>
+                    <li>DTD Caching for offline usage</li>
+                    <li>XInclude</li>
+                    <li><a href="features/xml_editor.html">Pretty print</a></li>
+                    <li>Drag'n drop for copying / moving nodes</li>
+                    <li><a href="features.html">Default templates</a> for XML, DTD, XSLT,  DocBook, XHTML,  XML RelaxNG, MathML, SVG, XSL-FO, ANT</li>
+                    <li>JAXP support for plugging a new parser or a new transformer</li>
+                    <li><a href="features/open_document_editor.html">Open document</a> format (odt...) editor</li>
+                    <li>Drag'n drop for building XSLT documents, inserting a file from the file system</li>
+                    <li>Multiple Formatting Scenarios</li>
+                </ul>
+                <div class="clean"></div>
+			</div>
+            <a class="more_big" href="gallery.html">More screenshots</a>
+
+<!-- InstanceEndEditable -->
+      </div>
+    
+        <div id="colonne_droite" class="float_left">
+          <div class="blockgd">
+            <h2>Available for</h2>
+            <div class="contenu_blockgd"> <img src="images/structure/icon_big_windows.jpg" width="34" height="35" alt="Windows" title="Windows" class="float_left icondroite"/>
+              <p class="float_left">Windows</p>
+              <div class="clean"></div>
+              <div class="separateur_droite"></div>
+              <img src="images/structure/icon_big_linux.jpg" width="34" height="35" alt="Linux" title="Linux" class="float_left icondroite"/>
+              <p class="float_left">Linux</p>
+              <div class="clean"></div>
+              <div class="separateur_droite"></div>
+              <img src="images/structure/icon_big_macos.jpg" width="34" height="35" alt="Mac OSX" title="Mac OSX" class="float_left icondroite"/>
+              <p class="float_left">Mac OSX</p>
+              <div class="clean"></div>
+              <a href="/download.html" class="lien_more_droite">More...</a> </div>
+          </div>
+          <div class="blockgd">
+            <h2>Starting Prices</h2>
+            <div class="contenu_blockgd">
+              <div class="price_droite"> Small Business<br/>
+                <span class="color_red">$79</span><br/>
+                Enterprise<br/>
+                <span class="color_red">$139</span> </div>
+              <a href="/buy.html" class="lien_more_droite">More...</a> </div>
+          </div>
+          <div class="blockgd">
+            <h2>Documentation</h2>
+            <div class="contenu_blockgd block-sp">
+              <ul>
+                <li><a href="doc/manual11/index.html">EditiX Manual</a></li>
+                <li>
+                <a href="license.html">EditiX License </a></li>
+                <li><a href="xml.html">XML Standards</a></li>
+              </ul>
+              <div class="clean"></div>
+            </div>
+          </div>
+          
+<div class="blockgd">
+            <h2>Networks</h2>
+            <div class="contenu_blockgd">
+              <div class="lite_droite">Follow us on Twitter, Facebook, YouTube
+              <br />
+              <a href="http://www.twitter.com/@editix_xml"><img src="images/twitter.png" alt="editix on twitter" /></a><a href="http://www.facebook.com/pages/EditiX-XML-Editor/246649145444558"><img src="images/facebook.png" alt="editix on facebook" /></a><a href="http://www.youtube.com/japisoftpodcast"><img src="images/youtube.png" alt="editix on youtube" /></a></div>
+</div>
+
+	</div>          
+          
+          <div class="blockgd">
+            <h2>EditiX's Users</h2>
+            <div class="contenu_blockgd">
+              <div class="users_comments_droite">
+                <p>"This is really a great app for creating and developing XML-based documents"</p>
+                <p class="signature">Rüdiger Weiß-Mazzoni</p>
+                <div class="separateur_droite"></div>
+                <p>"useful and professional XML
+                  editor"</p>
+                <p class="signature">Eyal Katz</p>
+                <div class="clean"></div>
+              </div>
+              <a href="users.html" class="lien_more_droite">More...</a> </div>
+          </div>
+          
+        </div>
+        
+     <div class="clean"></div>
+       <p id="footer">Copyright © 2004-2013 <span class="gras bleu"><a href="http://www.japisoft.com">JAPISoft</a></span> - All rights reserved</p>
+    </div>
+    <div id="bas-arrondi"><img src="images/structure/bottom-arrondi.jpg" width="971" height="13" alt="Editix" title="Editix" /></div>
+</body>
+<!-- InstanceEnd --></html>

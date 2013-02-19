@@ -1,0 +1,74 @@
+<div class="container">
+  <a href="#/view">Back</a>
+  <div>
+    <h3>{{source.pname}}:</h3>
+    <blockquote>
+      <p>"{{source.text}}"</p>
+    </blockquote>
+    <h4>βρίσκεται <a href="{{source.link}}">σε αυτή την πηγή</a>
+      και είναι:</h4>
+    <!-- <img class="img-rounded" width="100" height="64" ng-src="geppeto/_design/geppeto/style/{{source.status}}.jpg"> -->
+  </div>
+  <div class="accordion" id="accordion1">
+    <div class="accordion-group">
+      <div class="accordion-heading">
+	<a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+	  <legend>Πείτε τη γνώμη σας...</legend>
+	</a>
+      </div>
+      <div id="collapseOne" class="accordion-body collapse">
+	<div class="accordion-inner">
+	  <h4 class="control-label">Θεωρώ ότι η δήλωση είναι:</h4>
+	  <form class="form-horizontal" ng-submit="addCheck()">
+	    <div class="control-group">
+	      <div class="controls">
+		<label class="radio">
+		  <input type="radio" ng-model="check.status" name="optionsRadios" id="optionsRadios1" value="Fact" checked>
+		  Αλήθεια
+		</label>
+		<label class="radio">
+		  <input type="radio" ng-model="check.status" name="optionsRadios" id="optionsRadios2" value="Lie">
+		  Μύθος
+		</label>
+	      </div>
+	    </div>
+	    <div class="control-group">
+	      <div class="controls">
+		<textarea rows="3" placeholder="Επειδή..." 
+			  ng-model="check.text" class="input-xxlarge"></textarea>
+	      </div>
+	    </div>
+	    <div class="control-group">
+	      <div class="controls">
+		<input type="url" id="inputLink" 
+		       placeholder="...όπως φαίνεται σε αυτό το URL" 
+		       ng-model="check.link" class="input-xxlarge" required></input>
+	      </div>
+	    </div>
+	    <div class="control-group">
+	      <div class="controls">
+		<button type="submit" class="btn-info">Βοήθησε</button>
+	      </div>
+	    </div>
+	  </form>
+	</div>
+      </div>
+    </div>
+  </div>
+  <legend>Γνώμες</legend>
+  <ul class="media-list" >
+    <li class="media" ng-repeat="c in db.rows">
+      <a class="pull-left" href="#">
+	<!-- <img class="img-circle" width="128" height="128" ng-src="geppeto/_design/geppeto/style/{{c.value.status}}.jpg"> -->
+      </a>
+      <div class="media-body">
+	<blockquote class="media-heading">
+	  <p class="text-{{c.value.status}}">{{c.value.text}}</p>
+	</blockquote>
+	<p>όπως φαίνεται στην <a href="{{c.value.link}}">πηγή</a></p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+

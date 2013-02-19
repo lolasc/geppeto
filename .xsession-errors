@@ -1,0 +1,395 @@
+** Message: applet now removed from the notification area
+** Message: using fallback from indicator to GtkStatusIcon
+[2377:2421:0218/121940:ERROR:object_proxy.cc(624)] Failed to get name owner. Got org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.chromium.Mtpd': no such name
+[2377:2421:0218/121940:ERROR:object_proxy.cc(624)] Failed to get name owner. Got org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.chromium.Mtpd': no such name
+
+** (nautilus:2374): WARNING **: Can not get _NET_WORKAREA
+
+** (nautilus:2374): WARNING **: Can not determine workarea, guessing at layout
+[2377:2377:0218/121940:ERROR:object_proxy.cc(529)] Failed to call method: org.chromium.Mtpd.EnumerateStorages: object_path= /org/chromium/Mtpd: org.freedesktop.DBus.Error.ServiceUnknown: The name org.chromium.Mtpd was not provided by any .service files
+failed to create drawable
+failed to create drawable
+
+(gnome-shell:2341): folks-WARNING **: Failed to find primary PersonaStore with type ID 'eds' and ID 'system'.
+Individuals will not be linked properly and creating new links between Personas will not work.
+The configured primary PersonaStore's backend may not be installed. If you are unsure, check with your distribution.
+** Message: applet now embedded in the notification area
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus 0x1000004 (Desktop) with a timestamp of 0.  This shouldn't happen!
+
+(ibus-daemon:2556): GLib-CRITICAL **: g_variant_unref: assertion `value->ref_count > 0' failed
+[2615:2642:0218/122012:ERROR:object_proxy.cc(624)] Failed to get name owner. Got org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.chromium.Mtpd': no such name
+[2615:2642:0218/122012:ERROR:object_proxy.cc(624)] Failed to get name owner. Got org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.chromium.Mtpd': no such name
+[2615:2615:0218/122014:ERROR:object_proxy.cc(529)] Failed to call method: org.chromium.Mtpd.EnumerateStorages: object_path= /org/chromium/Mtpd: org.freedesktop.DBus.Error.ServiceUnknown: The name org.chromium.Mtpd was not provided by any .service files
+[2615:2615:0218/122015:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+No bp log location saved, using default.
+[000:000] Browser XEmbed support present: 1
+[000:000] Browser toolkit is Gtk2.
+[000:000] Using Gtk2 toolkit
+[000:006] Starting client channel.
+[000:006] Warning(clientchannel.cc:435): Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[000:007] Warning(clientchannel.cc:410): Could not initiate GoogleTalkPlugin connection
+[000:007] GoogleTalkPlugin not running. Starting new process...
+[000:007] Warning(pluginutils.cc:268): Failed to get GoogleTalkPlugin path. Trying default.
+[000:009] Started GoogleTalkPlugin, path=/opt/google/talkplugin/GoogleTalkPlugin
+[000:010] Waiting for GoogleTalkPlugin to start...
+[001:104] Attempting to connect to GoogleTalkPlugin...
+[001:104] Warning(clientchannel.cc:435): Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[001:105] Warning(clientchannel.cc:410): Could not initiate GoogleTalkPlugin connection
+[001:105] Waiting for GoogleTalkPlugin to start...
+[002:108] Attempting to connect to GoogleTalkPlugin...
+[002:108] Read port file, port=34532
+[002:109] Initiated connection to GoogleTalkPlugin
+[002:209] Socket connection established
+[002:209] ScheduleOnlineCheck: Online check in 5000ms
+[002:309] Got cookie response, socket is authorized
+[002:309] AUTHORIZED; socket handshake complete
+[007:220] HandleOnlineCheck: Starting check
+[007:220] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0218/122059:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/122101:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/122101:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/122206:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/122354:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2987:0218/122357:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+[2615:3280:0218/125425:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2e00004 (None)
+Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+[4318:685] Starting client channel.
+[4318:685] Read port file, port=34532
+[4318:687] Initiated connection to GoogleTalkPlugin
+[4318:733] Socket connection established
+[4318:733] ScheduleOnlineCheck: Online check in 5000ms
+[4318:779] Got cookie response, socket is authorized
+[4318:779] AUTHORIZED; socket handshake complete
+[4323:777] HandleOnlineCheck: Starting check
+[4323:777] HandleOnlineCheck: OK; current state: 3
+[4964:084] Starting client channel.
+[4964:084] Read port file, port=34532
+[4964:085] Initiated connection to GoogleTalkPlugin
+[4964:179] Socket connection established
+[4964:179] ScheduleOnlineCheck: Online check in 5000ms
+[4964:280] Got cookie response, socket is authorized
+[4964:280] AUTHORIZED; socket handshake complete
+[4969:196] HandleOnlineCheck: Starting check
+[4969:196] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0218/135250:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+
+(gnome-shell:2341): Clutter-WARNING **: clutter_actor_raise Actor 'ClutterClone' is not in the same container as actor 'ClutterClone'
+
+** (x-terminal-emulator:3580): WARNING **: Binding '<Shift><Control><Alt>a' failed!
+Unable to bind hide_window key, another instance/window has it.
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3000004 (None)
+Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+[2615:2615:0218/140405:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:3975:0218/150400:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+[9957:495] Starting client channel.
+[9957:495] Read port file, port=34532
+[9957:497] Initiated connection to GoogleTalkPlugin
+[9957:690] Socket connection established
+[9957:690] ScheduleOnlineCheck: Online check in 5000ms
+[9957:791] Got cookie response, socket is authorized
+[9957:791] AUTHORIZED; socket handshake complete
+[9962:703] HandleOnlineCheck: Starting check
+[9962:703] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0218/152243:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/152300:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/152342:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+
+(gnome-shell:2341): Clutter-WARNING **: The meta of type 'StScrollViewFade' with name 'fade' is not attached to the actor 'notification-scrollview'
+
+(gnome-shell:2341): St-CRITICAL **: _st_paint_shadow_with_opacity: assertion `shadow_spec != NULL' failed
+[2615:2615:0218/152834:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/152841:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/152854:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/152924:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/153342:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/153448:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/153520:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/153555:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/153654:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:4390:0218/154353:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+[2615:2615:0218/154940:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/155157:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/155200:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/155211:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/155227:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/155445:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/155615:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/160611:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/160920:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/161413:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/161419:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/161424:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/161530:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/161708:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/161714:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/161721:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/161739:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/162052:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/162211:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/162215:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/162314:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/162345:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/162627:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/162645:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163026:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163046:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163100:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163107:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163109:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163155:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163202:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163211:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163220:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163306:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163451:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163454:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163505:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163604:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163611:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/163707:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/164011:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/164117:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/164122:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/164136:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/164804:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/164835:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/165015:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/165803:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/170132:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0218/170134:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:5554:0218/170136:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+
+(gnome-shell:2341): Clutter-WARNING **: The meta of type 'StScrollViewFade' with name 'fade' is not attached to the actor 'notification-scrollview'
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus 0x2e00004 (clolas@pho) with a timestamp of 0.  This shouldn't happen!
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus 0x1000004 (Desktop) with a timestamp of 0.  This shouldn't happen!
+
+(evolution-alarm-notify:2608): evolution-alarm-notify-WARNING **: alarm.c:260: Requested removal of nonexistent alarm!
+
+(gnome-settings-daemon:2323): GLib-CRITICAL **: g_variant_get_int32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_INT32)' failed
+WARNING:root:timeout reached, exiting
+No bp log location saved, using default.
+[000:000] Browser XEmbed support present: 1
+[000:000] Browser toolkit is Gtk2.
+[000:001] Using Gtk2 toolkit
+[000:006] Starting client channel.
+[000:006] Warning(clientchannel.cc:435): Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[000:007] Warning(clientchannel.cc:410): Could not initiate GoogleTalkPlugin connection
+[000:007] GoogleTalkPlugin not running. Starting new process...
+[000:007] Warning(pluginutils.cc:268): Failed to get GoogleTalkPlugin path. Trying default.
+[000:009] Started GoogleTalkPlugin, path=/opt/google/talkplugin/GoogleTalkPlugin
+[000:010] Waiting for GoogleTalkPlugin to start...
+[001:104] Attempting to connect to GoogleTalkPlugin...
+[001:104] Read port file, port=40481
+[001:105] Initiated connection to GoogleTalkPlugin
+[001:205] Socket connection established
+[001:205] ScheduleOnlineCheck: Online check in 5000ms
+[001:305] Got cookie response, socket is authorized
+[001:305] AUTHORIZED; socket handshake complete
+[006:216] HandleOnlineCheck: Starting check
+[006:216] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/112913:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/112915:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/112915:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/112916:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/112932:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/113518:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:6655:0219/113525:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for fstool.inaccess.com failed err=-8179
+[1024:727] Starting client channel.
+[1024:727] Read port file, port=40481
+[1024:728] Initiated connection to GoogleTalkPlugin
+[1025:022] Socket connection established
+[1025:022] ScheduleOnlineCheck: Online check in 5000ms
+[1025:122] Got cookie response, socket is authorized
+[1025:123] AUTHORIZED; socket handshake complete
+[1030:034] HandleOnlineCheck: Starting check
+[1030:034] HandleOnlineCheck: OK; current state: 3
+[1191:781] Starting client channel.
+[1191:781] Read port file, port=40481
+[1191:783] Initiated connection to GoogleTalkPlugin
+[1191:843] Socket connection established
+[1191:843] ScheduleOnlineCheck: Online check in 5000ms
+[1191:876] Got cookie response, socket is authorized
+[1191:876] AUTHORIZED; socket handshake complete
+[1196:861] HandleOnlineCheck: Starting check
+[1196:861] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/114629:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/114723:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/115031:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:6833:0219/120321:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+[2615:2615:0219/121243:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[3262:941] Starting client channel.
+[3262:941] Read port file, port=40481
+[3262:943] Initiated connection to GoogleTalkPlugin
+[3263:188] Socket connection established
+[3263:188] ScheduleOnlineCheck: Online check in 5000ms
+[3263:288] Got cookie response, socket is authorized
+[3263:288] AUTHORIZED; socket handshake complete
+[3268:199] HandleOnlineCheck: Starting check
+[3268:200] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/123944:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/124047:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[5077:097] Starting client channel.
+[5077:097] Read port file, port=40481
+[5077:098] Initiated connection to GoogleTalkPlugin
+[5077:350] Socket connection established
+[5077:350] ScheduleOnlineCheck: Online check in 5000ms
+[5077:450] Got cookie response, socket is authorized
+[5077:450] AUTHORIZED; socket handshake complete
+[5082:391] HandleOnlineCheck: Starting check
+[5082:391] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/124713:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/124826:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/124848:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/125011:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/130757:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[7111:668] Starting client channel.
+[7111:668] Read port file, port=40481
+[7111:669] Initiated connection to GoogleTalkPlugin
+[7111:671] Socket connection established
+[7111:671] ScheduleOnlineCheck: Online check in 5000ms
+[7111:763] Got cookie response, socket is authorized
+[7111:764] AUTHORIZED; socket handshake complete
+[7116:679] HandleOnlineCheck: Starting check
+[7116:679] HandleOnlineCheck: OK; current state: 3
+[7162:303] Starting client channel.
+[7162:303] Read port file, port=40481
+[7162:305] Initiated connection to GoogleTalkPlugin
+[7162:311] Socket connection established
+[7162:311] ScheduleOnlineCheck: Online check in 5000ms
+[7162:399] Got cookie response, socket is authorized
+[7162:399] AUTHORIZED; socket handshake complete
+[7167:315] HandleOnlineCheck: Starting check
+[7167:315] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/132205:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[7199:861] Starting client channel.
+[7199:861] Read port file, port=40481
+[7199:862] Initiated connection to GoogleTalkPlugin
+[7199:896] Socket connection established
+[7199:896] ScheduleOnlineCheck: Online check in 5000ms
+[7199:949] Got cookie response, socket is authorized
+[7199:949] AUTHORIZED; socket handshake complete
+[2615:2615:0219/132212:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[7206:990] Starting client channel.
+[7206:990] Read port file, port=40481
+[7206:993] Initiated connection to GoogleTalkPlugin
+[7207:089] Socket connection established
+[7207:089] ScheduleOnlineCheck: Online check in 5000ms
+[7207:190] Got cookie response, socket is authorized
+[7207:190] AUTHORIZED; socket handshake complete
+[7214:437] Starting client channel.
+[7214:438] Read port file, port=40481
+[7214:439] Initiated connection to GoogleTalkPlugin
+[7214:509] Socket connection established
+[7214:509] ScheduleOnlineCheck: Online check in 5000ms
+[7214:531] Got cookie response, socket is authorized
+[7214:531] AUTHORIZED; socket handshake complete
+[7219:527] HandleOnlineCheck: Starting check
+[7219:527] HandleOnlineCheck: OK; current state: 3
+[7223:568] Starting client channel.
+[7223:568] Read port file, port=40481
+[7223:569] Initiated connection to GoogleTalkPlugin
+[7223:641] Socket connection established
+[7223:641] ScheduleOnlineCheck: Online check in 5000ms
+[7223:661] Got cookie response, socket is authorized
+[7223:662] AUTHORIZED; socket handshake complete
+[7228:657] HandleOnlineCheck: Starting check
+[7228:657] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/132639:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/132655:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[7502:569] Starting client channel.
+[7502:570] Read port file, port=40481
+[7502:571] Initiated connection to GoogleTalkPlugin
+[7502:652] Socket connection established
+[7502:652] ScheduleOnlineCheck: Online check in 5000ms
+[7502:666] Got cookie response, socket is authorized
+[7502:666] AUTHORIZED; socket handshake complete
+[7507:863] Starting client channel.
+[7507:864] Read port file, port=40481
+[7507:865] Initiated connection to GoogleTalkPlugin
+[7507:870] Socket connection established
+[7507:870] ScheduleOnlineCheck: Online check in 5000ms
+[7507:958] Got cookie response, socket is authorized
+[7507:958] AUTHORIZED; socket handshake complete
+[7512:874] HandleOnlineCheck: Starting check
+[7512:875] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/132939:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:7545:0219/133110:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus 0x2e00004 (clolas@pho) with a timestamp of 0.  This shouldn't happen!
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus 0x1000004 (Desktop) with a timestamp of 0.  This shouldn't happen!
+[2615:2615:0219/133227:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/133228:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+
+(gnome-shell:2341): Clutter-WARNING **: clutter_actor_raise Actor 'ClutterClone' is not in the same container as actor 'ClutterClone'
+[2615:2615:0219/133234:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+
+** (terminator:7689): WARNING **: Binding '<Shift><Control><Alt>a' failed!
+Unable to bind hide_window key, another instance/window has it.
+[2615:2615:0219/133410:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/133425:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134150:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134230:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134508:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134519:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134557:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134601:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134604:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134607:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/134747:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:7935:0219/141212:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+[2615:8084:0219/150949:ERROR:cert_verify_proc_nss.cc(783)] CERT_PKIXVerifyCert for trac.inaccess.com failed err=-8179
+[13739:439] Starting client channel.
+[13739:439] Read port file, port=40481
+[13739:440] Initiated connection to GoogleTalkPlugin
+[13739:455] Socket connection established
+[13739:455] ScheduleOnlineCheck: Online check in 5000ms
+[13739:533] Got cookie response, socket is authorized
+[13739:533] AUTHORIZED; socket handshake complete
+[13744:474] HandleOnlineCheck: Starting check
+[13744:474] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/151153:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[14936:525] Starting client channel.
+[14936:525] Read port file, port=40481
+[14936:527] Initiated connection to GoogleTalkPlugin
+[14936:612] Socket connection established
+[14936:612] ScheduleOnlineCheck: Online check in 5000ms
+[14936:618] Got cookie response, socket is authorized
+[14936:618] AUTHORIZED; socket handshake complete
+[15236:052] Starting client channel.
+[15236:052] Read port file, port=40481
+[15236:053] Initiated connection to GoogleTalkPlugin
+[15236:272] Socket connection established
+[15236:272] ScheduleOnlineCheck: Online check in 5000ms
+[15236:373] Got cookie response, socket is authorized
+[15236:373] AUTHORIZED; socket handshake complete
+[15241:285] HandleOnlineCheck: Starting check
+[15241:286] HandleOnlineCheck: OK; current state: 3
+[15273:933] Starting client channel.
+[15273:933] Read port file, port=40481
+[15273:934] Initiated connection to GoogleTalkPlugin
+[15273:953] Socket connection established
+[15273:953] ScheduleOnlineCheck: Online check in 5000ms
+[15274:027] Got cookie response, socket is authorized
+[15274:027] AUTHORIZED; socket handshake complete
+[15278:971] HandleOnlineCheck: Starting check
+[15278:971] HandleOnlineCheck: OK; current state: 3
+[2615:2615:0219/162259:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/162433:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/163404:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/164139:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/164247:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/164256:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+
+(gnome-shell:2341): Clutter-WARNING **: clutter_actor_raise Actor 'ClutterGroup' is not in the same container as actor 'ClutterGroup'
+[2615:2615:0219/164452:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/164454:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/164456:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
+[2615:2615:0219/164628:ERROR:omnibox_view_gtk.cc(431)] Not implemented reached in virtual void OmniboxViewGtk::ApplyCaretVisibility()
